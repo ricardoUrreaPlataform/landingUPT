@@ -549,8 +549,65 @@
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input type="text" name="state" class="form-control" id="state" placeholder="State" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
-                                    <div class="validate"></div>
+                                    <input type="text" list="state" placeholder="State" required class="form-control">
+                                    <datalist id="state" name="state" class="form-contro" placeholder="State" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                      <option value="Alabama"></option>
+                                      <option value="Alaska"></option>
+                                      <option value="Arkansas"></option>
+                                      <option value="California"></option>
+                                      <option value="Colorado"></option>
+                                      <option value="Connecticut"></option>
+                                      <option value="Delawere"></option>
+                                      <option value="Florida"></option>
+                                      <option value="Georgia"></option>
+                                      <option value="Hawaii"></option>
+                                      <option value="Idaho"></option>
+                                      <option value="Illiniois"></option>
+                                      <option value="Indiana"></option>
+                                      <option value="Iowa"></option>
+                                      <option value="Kansas"></option>
+                                      <option value="Kentuchy"></option>
+                                      <option value="Lousiana"></option>
+                                      <option value="Maine"></option>
+                                      <option value="Maryland"></option>
+                                      <option value="Massachusetts"></option>
+                                      <option value=""></option>
+                                      <option value="Michigan"></option>
+                                      <option value="Minnesota"></option>
+                                      <option value="Mississippi"></option>
+                                      <option value="Missouri"></option>
+                                      <option value="Montana"></option>
+                                      <option value="Nebraska"></option>
+                                      <option value="Nevada"></option>
+                                      <option value="New Hamp - Shire"></option>
+                                      <option value="New Jersey"></option>
+                                      <option value="New Mexico"></option>
+                                      <option value="New York"></option>
+                                      <option value=" North Carolina"></option>
+                                      <option value=" North Dakota"></option>
+                                      <option value="Ohio"></option>
+                                      <option value="Oklahoma"></option>
+                                      <option value="Oregon"></option>
+                                      <option value="Pennsylvania"></option>
+                                      <option value="Rhode Island"></option>
+                                      <option value="South  Carolina"></option>
+                                      <option value="South Dakota"></option>
+                                      <option value="Tennessee"></option>
+                                      <option value="Texas"></option>
+                                      <option value="Utah"></option>
+                                      <option value="Vermont"></option>
+                                      <option value="Virginia"></option>
+                                      <option value="Washington"></option>
+                                      <option value="West Virginia"></option>
+                                      <option value="Wistconsin"></option>
+                                      <option value="Wyoming"></option>
+                                      <option value="Columbia"></option>
+                                      
+
+                                      </option>
+                                    </datalist>
+                                    <!--<input type="text" name="state" class="form-control" id="state" placeholder="State" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+                                    <div class="validate"></div>-->
                                 </div>
                                 <div class="col-md-4 form-group">
                                     <input type="text" name="zipCode" class="form-control" id="zipCode" placeholder="Zip Code" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
@@ -561,17 +618,17 @@
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-md-4 form-group">
-                                    <input type="text" name="fax" class="form-control" id="fax" placeholder="Fax" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <input type="text" name="fax" class="form-control" id="fax" placeholder="Fax" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input type="text" name="company" class="form-control" id="company" placeholder="Company" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <input type="text" name="company" class="form-control" id="company" placeholder="Company" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="radio-button">
-                                <label for="representative"><input style="background-color: blue;"type="radio" class="form-control" id="representative" name="selection" value="representative" >As Representative</label>
-                                <label for="distributor"><input type="radio" class="form-control" id="representative" name="selection" value="distributor" >As Distributor</label>
+                                <label for="representative"><input style="background-color: blue;"type="radio" class="form-control" id="representative" name="selection" value="representative" required >As Representative</label>
+                                <label for="distributor"><input type="radio" class="form-control" id="representative" name="selection" value="distributor" required>As Distributor</label>
 
                                 <div class="validate"></div>
                             </div>
