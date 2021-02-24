@@ -114,6 +114,10 @@ h6 {
     border-left: 0;
 }
 
+.social p {
+    color: #0078c3;
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -532,6 +536,10 @@ section {
 # About
 --------------------------------------------------------------*/
 
+.center-items {
+    text-align: -webkit-center;
+}
+
 .about .box-heading h4 {
     font-size: 13px;
     letter-spacing: 1px;
@@ -683,6 +691,10 @@ section {
     border-radius: 0;
 }
 
+#more {
+    display: none;
+}
+
 @-webkit-keyframes pulsate-btn {
     0% {
         transform: scale(0.6, 0.6);
@@ -703,6 +715,25 @@ section {
         transform: scale(1, 1);
         opacity: 0;
     }
+}
+
+.readButton {
+    background-color: #0078c3;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.readButton:hover .rotate360cw {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
 }
 
 
@@ -748,6 +779,21 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
     color: #fff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding-top: 15px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
