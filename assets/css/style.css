@@ -115,7 +115,12 @@ h6 {
 }
 
 .social p {
-    color: #0078c3;
+    color: white;
+    margin: 20px 20px;
+}
+
+.padding-span {
+    padding: 20px;
 }
 
 
@@ -1112,6 +1117,18 @@ section {
 .team .member:hover .social {
     opacity: 1;
     bottom: 15px;
+}
+
+#urrea {
+    background-color: #CD0D2A;
+}
+
+#surtek {
+    background-color: #FFE003;
+}
+
+#lock {
+    background-color: #004480;
 }
 
 
