@@ -115,7 +115,12 @@ h6 {
 }
 
 .social p {
-    color: #0078c3;
+    color: white;
+    margin: 20px 20px;
+}
+
+.padding-span {
+    padding: 20px;
 }
 
 
@@ -521,7 +526,7 @@ section {
 }
 
 .section-title p {
-    margin: 15px auto 0 auto;
+    margin: 0 auto;
     font-weight: 600;
 }
 
@@ -613,7 +618,7 @@ section {
 }
 
 .about .video-box {
-    background: url("../img/team/urrea.jpg") center center no-repeat;
+    background: url("../img/team/aerea-2015.jpg") center center no-repeat;
     background-size: cover;
     min-height: 400px;
 }
@@ -736,6 +741,10 @@ section {
     -moz-transform: rotate(360deg);
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -814,7 +823,7 @@ section {
 
 .counts .counters p {
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: -15px 0 20px 0;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
@@ -1112,6 +1121,18 @@ section {
 .team .member:hover .social {
     opacity: 1;
     bottom: 15px;
+}
+
+#urrea {
+    background-color: #CD0D2A;
+}
+
+#surtek {
+    background-color: #FFE003;
+}
+
+#lock {
+    background-color: #004480;
 }
 
 
