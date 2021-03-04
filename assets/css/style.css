@@ -526,7 +526,7 @@ section {
 }
 
 .section-title p {
-    margin: 15px auto 0 auto;
+    margin: 0 auto;
     font-weight: 600;
 }
 
@@ -618,7 +618,7 @@ section {
 }
 
 .about .video-box {
-    background: url("../img/team/urrea.jpg") center center no-repeat;
+    background: url("../img/team/aerea-2015.jpg") center center no-repeat;
     background-size: cover;
     min-height: 400px;
 }
@@ -741,6 +741,10 @@ section {
     -moz-transform: rotate(360deg);
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -819,7 +823,7 @@ section {
 
 .counts .counters p {
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: -15px 0 20px 0;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
