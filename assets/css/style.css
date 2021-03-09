@@ -281,7 +281,7 @@ h6 {
 @media only screen and (max-width: 600px) {
     #header .logo img {
         padding: 0;
-        margin: 10px;
+        margin: 10px 0px;
         max-height: 30px;
     }
 }
@@ -312,7 +312,6 @@ h6 {
     position: fixed;
     top: 55px;
     right: 15px;
-    bottom: 15px;
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
@@ -337,6 +336,8 @@ h6 {
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
+    font-size: xx-large;
+    text-align: center;
 }
 
 .mobile-nav a:hover,
@@ -580,7 +581,7 @@ section {
     justify-content: center;
     width: 64px;
     height: 64px;
-    border: 2px solid #d6e8bf;
+    border: 2px solid #004c94;
     border-radius: 50px;
     transition: 0.5s;
 }
@@ -671,7 +672,7 @@ section {
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(143, 192, 78, 0.7);
+    border: 5px solid #004c94;
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
@@ -892,7 +893,7 @@ section {
     height: 64px;
     background: #f3f8ec;
     border-radius: 50px;
-    border: 1px solid #d6e8bf;
+    border: 1px solid #004c94;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -910,6 +911,7 @@ section {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 24px;
+    color: #0078c3;
 }
 
 .services .icon-box h4 a {
@@ -1916,4 +1918,17 @@ input[type="radio"]:checked::after {
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .align-items-stretch {
+        justify-content: center;
+    }
+    .nav-menu-footer,
+    .nav-menu-footer * {
+        display: none;
+    }
+    #footer .footer-top {
+        padding: 20px 0;
+    }
 }
