@@ -530,6 +530,10 @@ section {
     font-weight: 600;
 }
 
+.section-title p span {
+    color: #0078c3;
+}
+
 @media (min-width: 1024px) {
     .section-title p {
         width: 50%;
@@ -865,7 +869,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-    background: #000;
+    background: #004480;
     border: 2px solid #0078c3;
 }
 
@@ -1526,7 +1530,7 @@ section {
 .contact .php-email-form .error-message {
     display: none;
     color: #fff;
-    background: #ed3c0d;
+    background: #df1f36;
     text-align: left;
     padding: 15px;
     font-weight: 600;
@@ -1886,4 +1890,30 @@ input[type="radio"]:checked::after {
     float: right;
     text-align: center;
     font-size: 13px;
+}
+
+.nav-menu-footer,
+.nav-menu-footer * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu-footer>ul>li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+}
+
+.nav-menu-footer a {
+    display: block;
+    position: relative;
+    color: #000;
+    padding: 14px 0 12px 25px;
+    transition: 0.3s;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
 }
