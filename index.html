@@ -55,10 +55,10 @@
         <div class="container d-flex">
 
             <div class="logo mr-auto">
-                <a href="index.html"><img src="assets/img/team/uptLogo.png" alt="" class="img-fluid"></a>
-                <a href="http://192.168.1.238:8088/Urrea/index.php"><img src="assets/img/team/urreaLogo.png" alt="" class="img-fluid"></a>
-                <a href=""><img src="assets/img/team/surtekLogo.png" alt="" class="img-fluid"></a>
-                <a href=""><img src="assets/img/team/lockLogo.png" alt="" class="img-fluid"></a>
+                <a href="index.html"><img src="assets/img/team/uptLogo.png" alt="upt_logo" class="img-fluid"></a>
+                <a href="urrea.html"><img src="assets/img/team/urreaLogo.png" alt="urrea_logo" class="img-fluid"></a>
+                <a href=""><img src="assets/img/team/surtekLogo.png" alt="surtek_logo" class="img-fluid"></a>
+                <a href=""><img src="assets/img/team/lockLogo.png" alt="lock_logo" class="img-fluid"></a>
             </div>
 
             <nav class="nav-menu d-none d-lg-block">
@@ -111,7 +111,7 @@
                                         exceed industry standards by using the best quality USA
                                         steel.</span>
                                     <p>View catalog & more</p>
-                                    <a href="http://192.168.1.238:8088/Urrea/index.php"><i class="icofont-arrow-right"></i></a>
+                                    <a href="urrea.html"><i class="icofont-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div id="urrea" class="member-info">
@@ -308,6 +308,7 @@
                 <div class="text-center">
                     <h3>Find a Distributor</h3>
                     <p>Find your closest distributor with the best service and the best solutions for you.</p>
+
                     <a class="cta-btn" href="#">Search</a>
                 </div>
 
@@ -328,23 +329,25 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="icon-box" data-aos="zoom-in">
-                            <div class="icon"><i class="bx bx-download"></i></div>
-                            <h4><a href="https://medios.urrea.com/catalogo/UPT/2BMPRM21.pdf" target="_blank">Bimonthly Promotion</a></h4>
+                            <div class="icon"><a href="https://medios.urrea.com/catalogo/UPT/2BMPRM21.pdf" target="_blank"><i class="bx bx-download"></i></a></div>
+                            <h4>Bimonthly Promotion</h4>
                             <p>Here you will find discounts of 5% and 10% of the price list.</p>
                         </div>
                     </div>
                     <!--Preguntar a Leo por contenido de texto-->
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                         <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="icon"><i class="bx bx-download"></i></div>
-                            <h4><a href="https://indd.adobe.com/view/8a33b824-d9c8-4bc8-8d1a-61d9658dd0c0" target="_blank">Monthly Releases</a></h4>
+                            <div class="icon"><a href="https://indd.adobe.com/view/8a33b824-d9c8-4bc8-8d1a-61d9658dd0c0" target="_blank"><i class="bx bx-download"></i></a></div>
+                            <h4>Monthly Releases</h4>
                             <p>Only 5% discount, new products accumulate from the last 12 months.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="icon-box" data-aos="zoom-in">
-                            <div class="icon"><i class="bx bx-download"></i></div>
-                            <h4><a href="https://medios.urrea.com/catalogo/UPT/2BMPRM21.pdf" target="_blank">Killer Promo</a></h4>
+                            <a href="https://medios.urrea.com/catalogo/UPT/2BMPRM21.pdf" target="_blank">
+                                <div class="icon"><i class="bx bx-download"></i></a>
+                            </div>
+                            <h4>Killer Promo</h4>
                             <p>Out of catalog products with great discounts.</p>
                         </div>
                     </div>
@@ -523,8 +526,9 @@
                 <div class="section-title" data-aos="zoom-in">
                     <h2>Contact</h2>
                     <h3>Check our <span>Contact</span> Details</h3>
-                    <p>If you want to become a Sales representative under comission basis please select <span>As Representative</span><br> If you are Interested to sell/distribute our products please select<span> As Distributor
-                        </span>
+                    <p>If you want to become a Sales representative under comission basis please select<br> <span>As Representative</span><br> If you are Interested to sell/distribute our products please select<br><span> As Distributor</span><br> If you
+                        are Interested to sell our products in your website please select<br><span>E-Commerce</span>
+
                     </p>
                 </div>
 
@@ -663,7 +667,7 @@
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input type="text" name="company" class="form-control" id="company" placeholder="Company" />
+                                    <input type="text" name="company" class="form-control" id="company" placeholder="Company/Website" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
@@ -671,6 +675,7 @@
                             <div class="radio-button">
                                 <label for="representative"><input style="background-color: blue;"type="radio" class="form-control" id="representative" name="selection" value="representative" required > As Representative</label>
                                 <label for="distributor"><input type="radio" class="form-control" id="representative" name="selection" value="distributor" required>As Distributor</label>
+                                <label for="commerce"><input type="radio" class="form-control" id="commerce" name="selection" value="distributor" required>E-Commerce</label>
 
                                 <div class="validate"></div>
                             </div>
@@ -683,6 +688,7 @@
                             <div class="form-group">
                                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validate"></div>
+                     
                             </div>-->
 
                             <div class="mb-3">
@@ -710,19 +716,24 @@
         <div class="footer-top">
 
             <div class="container">
-                <nav class="nav-menu-footer ">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" style="margin-inline-end: auto;">
+                        <img src="/assets/img/team/uptLogo.png" alt="">
+                    </div>
 
-                    <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#team">Brands</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Downloads</a></li>
-                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <nav class="nav-menu-footer ">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#team">Brands</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Downloads</a></li>
+                            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
 
-                        <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
 
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
+                </div>
                 <!--<div class="row  justify-content-center">
                     <div class="col-lg-6">
                         <h3>Remember</h3>
