@@ -129,6 +129,20 @@ h6 {
     float: left;
 }
 
+#vmont {
+    float: left;
+    width: 60%;
+    margin: 1%;
+}
+
+.month {
+    display: block;
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 1%;
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -470,8 +484,8 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
     overflow: hidden;
+    padding: 40px 0;
 }
 
 .section-title {
@@ -801,6 +815,7 @@ section {
 
 .row {
     place-content: center;
+    padding: 20px 0;
 }
 
 .row:after {
