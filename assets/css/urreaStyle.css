@@ -484,8 +484,8 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
     overflow: hidden;
+    padding: 40px 0;
 }
 
 .section-title {
@@ -815,6 +815,7 @@ section {
 
 .row {
     place-content: center;
+    padding: 20px 0;
 }
 
 .row:after {
