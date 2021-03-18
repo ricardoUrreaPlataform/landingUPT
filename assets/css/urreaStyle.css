@@ -129,6 +129,20 @@ h6 {
     float: left;
 }
 
+#vmont {
+    float: left;
+    width: 60%;
+    margin: 1%;
+}
+
+.month {
+    display: block;
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 1%;
+}
+
 
 /*--------------------------------------------------------------
 # Header
