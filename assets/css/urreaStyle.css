@@ -1993,3 +1993,14 @@ input[type="radio"]:checked::after {
         padding: 20px 0;
     }
 }
+
+
+/** Gallery**/
+
+.gallery {
+    height: 450px;
+    float: left;
+    /* margin-left: 20px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
