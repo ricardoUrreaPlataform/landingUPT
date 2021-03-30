@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     color: #444444;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 
@@ -164,7 +164,7 @@ h6 {
     line-height: 1;
     font-weight: 700;
     letter-spacing: 1px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 #header .logo h1 a,
@@ -208,9 +208,9 @@ h6 {
     transition: 0.3s;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .nav-menu a:hover,
@@ -426,7 +426,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background: url("../img/urrea/Recurso\ 260@2x.png") top center;
+    background: url("../img/urrea/bannerUrrea.png") top center;
     background-size: cover;
     position: relative;
 }
@@ -446,7 +446,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -816,6 +816,7 @@ section {
 .row {
     place-content: center;
     padding: 20px 0;
+    font-size: small;
 }
 
 .row:after {
@@ -843,7 +844,7 @@ section {
 .counts .counters p {
     padding: 0;
     margin: -15px 0 20px 0;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 14px;
 }
 
@@ -870,7 +871,7 @@ section {
 }
 
 .cta .cta-btn {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1341,7 +1342,7 @@ section {
     font-size: 42px;
     color: #0078c3;
     font-weight: 500;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     margin-bottom: 20px;
 }
 
@@ -1394,7 +1395,7 @@ section {
     color: #0078c3;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-weight: 600;
     transition: 0.3s;
 }
@@ -1467,7 +1468,7 @@ section {
 .faq .faq-list a {
     display: block;
     position: relative;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -1858,7 +1859,7 @@ input[type="radio"]:checked::after {
     font-weight: 700;
     color: #000;
     position: relative;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -1976,9 +1977,9 @@ input[type="radio"]:checked::after {
     transition: 0.3s;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 @media (max-width: 768px) {
