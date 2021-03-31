@@ -363,7 +363,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #0078c3;
+    color: #CD0D2A;
     text-decoration: none;
 }
 
@@ -1163,7 +1163,7 @@ section {
 }
 
 .columns li {
-    padding: 5px;
+    padding: 5px 0;
 }
 
 .columns li span {
@@ -2004,4 +2004,11 @@ input[type="radio"]:checked::after {
     /* margin-left: 20px; */
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+#new-Products-Column li {
+    padding: 10px 0;
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
 }
