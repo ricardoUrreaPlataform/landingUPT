@@ -1202,6 +1202,13 @@ section {
     color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+    #catalog-imagen {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
