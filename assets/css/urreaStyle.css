@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     color: #444444;
 }
 
@@ -164,7 +164,7 @@ h6 {
     line-height: 1;
     font-weight: 700;
     letter-spacing: 1px;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #header .logo h1 a,
@@ -208,9 +208,8 @@ h6 {
     transition: 0.3s;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
-    font-family: 'Alfa Slab One', cursive;
 }
 
 .nav-menu a:hover,
@@ -446,7 +445,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -816,7 +815,7 @@ section {
 .row {
     place-content: center;
     padding: 20px 0;
-    font-size: small;
+    font-size: initial;
 }
 
 .row:after {
@@ -844,7 +843,7 @@ section {
 .counts .counters p {
     padding: 0;
     margin: -15px 0 20px 0;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
 
@@ -871,7 +870,7 @@ section {
 }
 
 .cta .cta-btn {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1395,7 +1394,7 @@ section {
     color: #0078c3;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     transition: 0.3s;
 }
@@ -1468,7 +1467,7 @@ section {
 .faq .faq-list a {
     display: block;
     position: relative;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -1977,9 +1976,8 @@ input[type="radio"]:checked::after {
     transition: 0.3s;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
-    font-family: 'Alfa Slab One', cursive;
 }
 
 @media (max-width: 768px) {
