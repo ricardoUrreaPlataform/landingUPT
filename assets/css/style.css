@@ -1041,6 +1041,11 @@ section {
     bottom: 0;
 }
 
+#portfolio p {
+    padding: 20px;
+    text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 # Team
