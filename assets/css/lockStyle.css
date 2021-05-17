@@ -73,7 +73,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #topbar {
-    background: #CD0D2A;
+    background: #004480;
     padding: 10px 0;
     font-size: 14px;
     color: #FFF;
@@ -215,7 +215,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #CD0D2A;
+    color: #004480;
     text-decoration: none;
 }
 
