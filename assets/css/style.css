@@ -1046,6 +1046,16 @@ section {
     text-align: justify;
 }
 
+#portfolio img {
+    height: 100px;
+}
+
+#portfolio h6 {
+    color: rgb(0, 120, 195);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Team
