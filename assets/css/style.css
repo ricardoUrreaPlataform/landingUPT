@@ -1056,6 +1056,16 @@ section {
     text-align: center;
 }
 
+#portfolio .col-md-3 {
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    #portfolio h6 {
+        text-align: left;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Team
