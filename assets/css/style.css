@@ -1053,7 +1053,8 @@ section {
 #portfolio h6 {
     color: rgb(0, 120, 195);
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 #portfolio .col-md-3 {
@@ -1061,8 +1062,8 @@ section {
 }
 
 @media (max-width: 576px) {
-    #portfolio h6 {
-        text-align: left;
+    #portfolio img {
+        padding-left: 20px;
     }
 }
 
