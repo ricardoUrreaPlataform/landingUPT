@@ -25,6 +25,10 @@ h6 {
     font-family: 'Titillium Web', sans-serif;
 }
 
+h3 span {
+    color: #0078c3;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -537,7 +541,7 @@ section {
 
 @media (min-width: 1024px) {
     .section-title p {
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -1043,7 +1047,7 @@ section {
 
 #portfolio p {
     padding: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 #portfolio img {
